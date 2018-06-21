@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#still a prototype, working on it...
 import movie_review as mr
 import collections
 import sys
