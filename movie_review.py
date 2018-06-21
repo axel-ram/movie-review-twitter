@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+#automatically compile while importing in r4.py file
+#have to train the model first
+#checks for 5000 dataset rows memory use about 1gb
+#checked for 40000 dataset rows, memory use about 4gb (do not run if you system dont have atleast 6gb ram otherwise program will crash) takes 5 min to analyze data
+#checked upto 150000 dataset rows, only ran one time, memory use full 6.5gb (8g on system), took 15 min to analyze data
+#working on to import a trained model directly
 # importing libs
 import numpy as np
 import pandas as pd
